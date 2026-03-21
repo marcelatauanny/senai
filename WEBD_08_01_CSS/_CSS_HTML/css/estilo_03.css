@@ -1,46 +1,60 @@
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: none;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    width: 600px;
-    margin: 20px 0;
+body{
+    font-family: Arial;
+    background-color: #e6e6e6;
 }
 
-tr {
-    line-height: 50px;
-    border-bottom: solid 1px #eeeeee;
-    color: #555555;
+form{
+    background-color: white;
 }
 
-tr:first-child {
-    background-color: #009579;
+/*Caixa do formulario*/
+
+form{
+    background-color: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf
+}
+
+/*Titulo*/
+
+h2{
+    text-align: center;
+    color: #2f8ea1;
+    font-size: 32px;
+}
+
+/*campos de texto*/
+ input[type="email"],
+ input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+ }
+ 
+ button{
+    width: 100%;
+    padding: 10px;
+    background-color: #2f8ea1;
     color: white;
-    font-weight: bold;
-}
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+ }
 
-tr:nth-child(2) {
-    background-color: #f3f3f3;
-    color: #009579;
-    font-weight: bold;
-}
+ p{
+    text-align: center;
+    margin-top: 15px;
 
-td, th {
-    padding: 10px 20px;
-    text-align: left;
-}
+ }
 
-tr:first-child td:first-child, 
-tr:first-child th:first-child {
-    border-radius: 10px 0 0 0;
-}
-
-tr:first-child td:last-child, 
-tr:first-child th:last-child {
-    border-radius: 0 10px 0 0;
-}
-
-tr:last-child {
-    border-bottom: 3px solid #009579;
-}
+ a{
+    color: #2f8ea1;
+    text-decoration: none;
+    font-weight: bold; 
+ }
