@@ -1,0 +1,268 @@
+body{
+    margin: 0 auto;
+    
+}
+
+.top_cupom{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #efefef;
+}
+
+.menu_info{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #000000;
+
+}
+
+.menu_info_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 45px;
+}
+
+.menu_info_box_logo{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 20px;
+    background-color: #ffffff;
+    padding: 12.5px;
+}
+
+.img_logo1{
+    float: left;
+    height: 20px;
+}
+
+.menu_info_box-menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: auto;
+    height: 45px;
+}
+
+.mn1{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+/*mudar de cor a fonte da escrita*/
+.mn1:hover{
+    color: #ff009c;
+}
+
+.mn1_card{
+    float: left;
+    font-family: arial;
+    font-size: 13px;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    background: #ff009c;
+    border-radius: 20px;
+    margin: 8px 0px;
+
+}
+
+
+.mn1_card:hover{      
+    color: black;
+}
+
+.menu{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+.menu_box{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 145px;
+    background: white;
+}
+
+.menu_box1{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 85px;
+    background: white;
+}
+
+.menu_box_2{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 60px;
+}
+
+.menu_box1_logo, .menu_box1pesq, .menu_box_1_entre, .menu_box1car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 256px;
+    height: 85px;
+}
+
+.menu_box1_logo{
+    background-color: white;
+}
+
+.menu_box1pesq{
+    background: white
+}
+
+.menu_box_1_entre{
+    background-image: url(../imagem/avatar.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+
+
+.img_logo2{
+    float: left;
+    height: 45px;
+    padding: 20px;
+
+}
+
+.inp_peq{
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 5px;
+    border: solid 1px #ff009c;
+}
+
+.menu_box1pesq{
+   background: white;
+}
+
+.img_logo2{
+    float: left;
+    height: 45px;
+    padding: 20px 0px;
+}
+
+.inp_peq{
+    font-family: arial;
+    font-size: 14px;
+    color: #333;
+    padding: 8px 10px;
+    border: solid 1px #ff009c;
+    outline: none;
+    float: left;
+}
+
+.btpesq{
+    height: 34px;
+    width: 30px;
+    background-color: #ff009c;
+    margin: 0;
+    border: solid 1px #ff009c;
+    background-image: url("../imagem/lupapreta.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 15px 15px;
+}
+
+.menu_box1pesq form{
+    padding: 26px 0px;
+}
+
+.link_entre{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: #ccc;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+}
+
+.box_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 50px;
+    height: 85px;
+    background-image: url(../imagem/carrinho.png);  
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px; 
+}
+
+.box_car span{
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+    background: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+
+}
+
+.box_texto_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 206px;
+    height: 30px;
+    padding: 27.5px 0px;
+    background: white;
+}
+
+.box_texto_car label{
+    font-family: arial;
+    font-size: 15px;
+    color: #666;
+    display: block;
+}
+
+.menu_categorias a{
+    font-family: arial;
+    font-size: 13px;
+    color: #444;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 60px;
+}
+
+.frete{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background: #272527;
+}
+
